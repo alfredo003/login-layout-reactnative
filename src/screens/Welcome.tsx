@@ -71,7 +71,7 @@ const Welcome = () => {
                             {translateY:50},
                             {rotate:"15deg"}
                         ]
-                    }007260}
+                    }}
                     />
 
 <View style={{
@@ -81,34 +81,34 @@ const Welcome = () => {
     width:"100%"
 }}> 
     <Text style={{
-        fontSize:50,
+        fontSize:20,
         fontWeight:800,
-        color:COLORS.white
-    }}>Vamos Comecar</Text>
+        color:COLORS.white,
+    }}>Bem-Vindo(a) ao</Text>
        <Text style={{
         fontSize:46,
         fontWeight:800,
-        color:COLORS.white
-    }}>Comecar</Text>
+        color:COLORS.white,
+    }}>NAZONA</Text>
 
 <View style={{marginVertical:22}}>
     <Text style={{
         fontSize:16,
         color:COLORS.white,
-        marginVertical:4
+        marginVertical:4,
     }}>Connect with each other with chatting</Text>
     <Text style={{
         fontSize:16,
-        color:COLORS.white
+        color:COLORS.white,
     }}> Calling , Enjoy Safe and private texting</Text>
 </View>
 
-<Button title="Join Now"
- style={{
-    marginTop:22,
-    with:"100%"
- }}
-/>
+<Button title="Começar Agora!"
+                        color="#39B68d"
+                        style={{
+                            marginTop: 24,
+                            with: "100%",
+                        }} filled={"#39B68d"} onPress={undefined}/>
             </View>
 
             </View>
